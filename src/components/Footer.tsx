@@ -41,7 +41,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-sand">
-              {site.tagline} A modern {site.city} CPA firm helping individuals and
+              {site.tagline} A modern {site.city} accounting firm helping individuals and
               businesses keep more of what they earn.
             </p>
             <a

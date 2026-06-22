@@ -15,7 +15,7 @@ export default function SpinningBadge({
   tone?: "dark" | "light";
 }) {
   const label =
-    `${site.firmNameShort} • CPA • ${site.city} • Tax • Advisory • `.toUpperCase();
+    `${site.firmNameShort} • ACCOUNTING • ${site.city} • Tax • Advisory • `.toUpperCase();
   const textClass = tone === "light" ? "fill-cream" : "fill-ink";
 
   return (

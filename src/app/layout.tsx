@@ -23,12 +23,12 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: `${site.firmName} | ${site.city} CPA, Tax & Advisory`,
+    default: `${site.firmName} | ${site.city} Accountant, Tax & Advisory`,
     template: `%s | ${site.firmName}`,
   },
   description: site.metaDescription,
   keywords: [
-    "Denver CPA",
+    "Denver accountant",
     "Colorado accountant",
     "tax preparation Denver",
     "bookkeeping Denver",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     "small business accountant",
   ],
   openGraph: {
-    title: `${site.firmName} | Modern ${site.city} CPA Firm`,
+    title: `${site.firmName} | Modern ${site.city} Accounting Firm`,
     description: site.metaDescription,
     type: "website",
     locale: "en_US",

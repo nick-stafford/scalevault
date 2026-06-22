@@ -14,17 +14,17 @@ export const site = {
   // ── Brand ────────────────────────────────────────────────────────────────
   firmName: "NS Accounting",
   firmNameShort: "NS Accounting",
-  cpaName: "Nick Stafford, CPA",
+  cpaName: "Nick Stafford, Accountant & Software Engineer",
   tagline: "Modern accounting for ambitious businesses.",
   // One-liner used in the browser tab + search results
   metaDescription:
-    "A Denver CPA firm pairing trusted tax, bookkeeping, and advisory expertise with a modern, paperless client experience. Book a free consultation today.",
+    "A modern Denver accounting firm pairing trusted tax, bookkeeping, and advisory expertise with a tech-driven, paperless client experience. Book a free consultation today.",
 
   // ── Location & contact ──────────────────────────────────────────────────
   city: "Denver",
   state: "Colorado",
   serviceArea: "Serving Denver & remote clients nationwide",
-  licensure: "Licensed CPA in the State of Colorado",
+  licensure: "Accounting & financial technology services in Colorado",
   phone: "(303) 881-6022",
   phoneHref: "tel:+13038816022",
   email: "hello@NSAccounting.com",
@@ -44,8 +44,8 @@ export const site = {
   ],
 
   credentials: [
-    "Licensed CPA in Colorado",
-    "AICPA Member",
+    "Accountant & Software Engineer",
+    "Tax, Bookkeeping & Advisory",
     "Secure, paperless workflow",
   ],
 
@@ -93,7 +93,7 @@ export const site = {
   workflow: {
     heading: "A firm that works the way you do",
     subheading:
-      "We pair seasoned CPA expertise with a modern, paperless client experience, so working with your accountant feels effortless, not exhausting.",
+      "We pair seasoned accounting expertise with a modern, paperless client experience, so working with your accountant feels effortless, not exhausting.",
     benefits: [
       {
         title: "Secure and paperless",
@@ -140,16 +140,16 @@ export const site = {
 
   // ── About ────────────────────────────────────────────────────────────────
   about: {
-    heading: "Meet your CPA",
+    heading: "Meet your Accountant",
     // ⚠️ Replace with the real bio
     body: [
       "After years in accounting, I started this firm with a simple belief: small businesses deserve the same caliber of financial guidance as the big players, delivered in a way that actually fits how they work.",
       "I combine deep tax and accounting expertise with modern tools that make the whole experience faster, clearer, and a lot less stressful. No jargon, no surprise bills, just a partner genuinely invested in your success.",
     ],
     credentials: [
-      "Certified Public Accountant (CPA)",
-      "Licensed in Colorado",
-      "Member, AICPA",
+      "Accountant & Software Engineer",
+      "Tax, Bookkeeping & Advisory",
+      "Automation & FinTech-Driven",
       "Denver, Colorado",
     ],
   },
@@ -214,8 +214,8 @@ export const site = {
 
   // ── Marquee row 1: trust badges / credentials ────────────────────────────
   marqueeBadges: [
-    "Licensed CPA in Colorado",
-    "AICPA Member",
+    "Accountant & Software Engineer",
+    "Automation-First Workflows",
     "5-Star Rated",
     "Bank-Level Security",
     "Flat-Rate Pricing",
@@ -279,8 +279,8 @@ export const site = {
     //   /clips/clip-7821852.mp4  — two professionals talking at a meeting
     //   /clips/clip-discussion-8814715.mp4 — advisor in discussion with clients (HD)
     //   /clips/clip-8440988.mp4  — man discussing the deal with clients (HD)
-    // Nick's headshot for the "Meet your CPA" section (takes priority over the video)
-    aboutPhoto: "/headshot.jpg" as string | null, // ⚠️ swap for Nick's real headshot
+    // Nick's headshot for the "Meet your Accountant" section (takes priority over the video)
+    aboutPhoto: "/nick-headshot.jpg" as string | null, // Nick's headshot (same photo as personal site)
     aboutVideo: null as string | null,
     aboutVideoPoster: "/clips/about-poster.jpg" as string | null,
   },
