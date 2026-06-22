@@ -12,9 +12,9 @@
 
 export const site = {
   // ── Brand ────────────────────────────────────────────────────────────────
-  firmName: "EK Accounting",
-  firmNameShort: "EK Accounting",
-  cpaName: "Evan Koeber, CPA",
+  firmName: "NS Accounting",
+  firmNameShort: "NS Accounting",
+  cpaName: "Nick Stafford, CPA",
   tagline: "Modern accounting for ambitious businesses.",
   // One-liner used in the browser tab + search results
   metaDescription:
@@ -25,9 +25,9 @@ export const site = {
   state: "Colorado",
   serviceArea: "Serving Denver & remote clients nationwide",
   licensure: "Licensed CPA in the State of Colorado",
-  phone: "(303) 621-4777",
-  phoneHref: "tel:+13036214777",
-  email: "hello@EKAccounting.com",
+  phone: "(303) 881-6022",
+  phoneHref: "tel:+13038816022",
+  email: "hello@NSAccounting.com",
   address: "Denver, Colorado", // ⚠️ full street address optional
 
   // ── Booking (Calendly) ──────────────────────────────────────────────────
@@ -164,7 +164,7 @@ export const site = {
     },
     {
       quote:
-        "Evan automated the processes that used to eat my whole week, invoicing, reconciliations, the monthly close. Now it runs in the background, our numbers are always current, and I get to focus on actually running the business.",
+        "Nick automated the processes that used to eat my whole week, invoicing, reconciliations, the monthly close. Now it runs in the background, our numbers are always current, and I get to focus on actually running the business.",
       name: "Ryan", // ⚠️ replace with a real client name
       role: "Owner, Construction Co.",
     },
@@ -279,8 +279,8 @@ export const site = {
     //   /clips/clip-7821852.mp4  — two professionals talking at a meeting
     //   /clips/clip-discussion-8814715.mp4 — advisor in discussion with clients (HD)
     //   /clips/clip-8440988.mp4  — man discussing the deal with clients (HD)
-    // Evan's headshot for the "Meet your CPA" section (takes priority over the video)
-    aboutPhoto: "/headshot.jpg" as string | null, // ⚠️ swap for Evan's real headshot
+    // Nick's headshot for the "Meet your CPA" section (takes priority over the video)
+    aboutPhoto: "/headshot.jpg" as string | null, // ⚠️ swap for Nick's real headshot
     aboutVideo: null as string | null,
     aboutVideoPoster: "/clips/about-poster.jpg" as string | null,
   },

@@ -1,0 +1,10 @@
+# Only the live clips ship; the rest is local-only raw footage (~3.3GB).
+/public/clips/*
+!/public/clips/seq-1.mp4
+!/public/clips/seq-2.mp4
+!/public/clips/guy-laptop-5977457.mp4
+!/public/clips/screen-data-7055344.mp4
+!/public/clips/seq-4.mp4
+!/public/clips/hero-poster.jpg
+!/public/clips/about-poster.jpg
+!/public/clips/hero-clip.mp4

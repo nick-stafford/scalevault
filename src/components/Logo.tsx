@@ -1,11 +1,11 @@
 /**
- * EK Accounting mark — a silver coin / medallion: brushed-silver rim with a
- * reeded (ridged) edge, a black face, and a silver "EK" in the center, with a
+ * NS Accounting mark — a silver coin / medallion: brushed-silver rim with a
+ * reeded (ridged) edge, a black face, and a silver "NS" in the center, with a
  * sun-glint sparkle. Self-contained SVG.
  */
 export default function Logo({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 40 40" className={className} role="img" aria-label="EK Accounting">
+    <svg viewBox="0 0 40 40" className={className} role="img" aria-label="NS Accounting">
       <defs>
         <linearGradient id="coin-metal" x1="0" y1="0" x2="0.85" y2="1">
           <stop offset="0" stopColor="#ffffff" />
@@ -40,19 +40,19 @@ export default function Logo({ className = "" }: { className?: string }) {
       <circle cx="20" cy="20" r="15" fill="url(#coin-face)" />
       <circle cx="20" cy="20" r="15" fill="none" stroke="url(#coin-metal)" strokeWidth="1.1" />
 
-      {/* EK */}
+      {/* NS */}
       <text
         x="20"
         y="20.4"
         textAnchor="middle"
         dominantBaseline="central"
         fontFamily="var(--font-space-grotesk), system-ui, sans-serif"
-        fontSize="12.5"
+        fontSize="11.5"
         fontWeight="700"
         letterSpacing="-0.5"
         fill="url(#coin-metal)"
       >
-        EK
+        NS
       </text>
 
       {/* sun-glint on the rim */}
