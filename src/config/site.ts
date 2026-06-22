@@ -24,7 +24,7 @@ export const site = {
   city: "San Francisco",
   state: "California",
   serviceArea: "Serving the Bay Area & remote clients nationwide",
-  licensure: "Accounting & financial technology services in the Bay Area",
+  licensure: "Serving the Bay Area & Remote",
   phone: "(303) 881-6022",
   phoneHref: "tel:+13038816022",
   email: "nicholas.alexander.stafford@gmail.com",
