@@ -12,10 +12,10 @@
 
 export const site = {
   // ── Brand ────────────────────────────────────────────────────────────────
-  firmName: "NS Accounting",
-  firmNameShort: "NS Accounting",
+  firmName: "Scalevault",
+  firmNameShort: "Scalevault",
   // Canonical production URL — update when a custom domain is connected.
-  url: "https://ns-accounting.vercel.app",
+  url: "https://scalevault.vercel.app",
   cpaName: "Nick Stafford, Accountant & Software Engineer",
   tagline: "Modern accounting for ambitious businesses.",
   // One-liner used in the browser tab + search results
