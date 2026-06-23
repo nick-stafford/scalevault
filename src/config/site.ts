@@ -15,7 +15,7 @@ export const site = {
   firmName: "Scalevault Financial",
   firmNameShort: "Scalevault",
   // Canonical production URL — update when a custom domain is connected.
-  url: "https://scalevault-smoky.vercel.app",
+  url: "https://scalevaultfinancial.com",
   cpaName: "Nick Stafford, Accountant & Software Engineer",
   tagline: "Modern finance & accounting for ambitious businesses.",
   // One-liner used in the browser tab + search results
