@@ -15,12 +15,12 @@ export const site = {
   firmName: "Scalevault",
   firmNameShort: "Scalevault",
   // Canonical production URL — update when a custom domain is connected.
-  url: "https://scalevault.vercel.app",
+  url: "https://scalevault-smoky.vercel.app",
   cpaName: "Nick Stafford, Accountant & Software Engineer",
   tagline: "Modern accounting for ambitious businesses.",
   // One-liner used in the browser tab + search results
   metaDescription:
-    "A modern, remote-first accounting firm serving small businesses nationwide. We pair trusted tax, bookkeeping, and advisory expertise with automation that keeps your books current. Book a free consultation today.",
+    "A modern, remote-first accounting firm for growing businesses nationwide. We pair trusted tax, bookkeeping, and advisory expertise with automation and smart workflows that keep your books current and scale with you. Book a free consultation today.",
 
   // ── Location & contact ──────────────────────────────────────────────────
   city: "San Francisco",
