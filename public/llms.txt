@@ -1,6 +1,6 @@
-# Scalevault
+# Scalevault Financial
 
-> Scalevault is a modern, remote-first accounting firm led by Nick Stafford
+> Scalevault Financial (Scalevault) is a modern, remote-first accounting and finance firm led by Nick Stafford
 > (Accountant & Software Engineer). It serves small businesses across the United
 > States with tax preparation, bookkeeping, and advisory / fractional-CFO
 > services, powered by automation that keeps books current and cuts manual work.

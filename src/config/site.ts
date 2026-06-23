@@ -12,7 +12,7 @@
 
 export const site = {
   // ── Brand ────────────────────────────────────────────────────────────────
-  firmName: "Scalevault",
+  firmName: "Scalevault Financial",
   firmNameShort: "Scalevault",
   // Canonical production URL — update when a custom domain is connected.
   url: "https://scalevault-smoky.vercel.app",

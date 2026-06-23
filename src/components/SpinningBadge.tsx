@@ -38,7 +38,7 @@ export default function SpinningBadge({
         </text>
       </svg>
 
-      {/* Static center mark — the SV silver coin */}
+      {/* Static center mark — the SVF silver coin */}
       <Logo className="absolute h-14 w-14 shadow-lg shadow-black/40" />
     </div>
   );
