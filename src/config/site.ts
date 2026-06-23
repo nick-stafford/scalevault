@@ -29,7 +29,7 @@ export const site = {
   licensure: "Serving the Bay Area & Remote",
   phone: "(303) 881-6022",
   phoneHref: "tel:+13038816022",
-  email: "nicholas.alexander.stafford@gmail.com",
+  email: "hello@scalevaultfinancial.com",
   address: "San Francisco, California", // ⚠️ full street address optional
 
   // ── Booking (Calendly) ──────────────────────────────────────────────────
