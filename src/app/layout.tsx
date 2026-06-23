@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Grotesk, Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { site } from "@/config/site";
+import StructuredData from "@/components/StructuredData";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -22,24 +23,35 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
   title: {
-    default: `${site.firmName} | ${site.city} Accountant, Tax & Advisory`,
+    default: `${site.firmName} | Remote-First Accounting, Tax & Advisory`,
     template: `%s | ${site.firmName}`,
   },
   description: site.metaDescription,
   keywords: [
-    "San Francisco accountant",
-    "California accountant",
-    "tax preparation San Francisco",
-    "bookkeeping San Francisco",
-    "fractional CFO",
+    "remote bookkeeping services",
+    "online accounting firm",
+    "accounting automation",
+    "outsourced bookkeeping",
     "small business accountant",
+    "tax preparation",
+    "fractional CFO",
+    "QuickBooks bookkeeping",
   ],
+  alternates: { canonical: "/" },
   openGraph: {
-    title: `${site.firmName} | Modern ${site.city} Accounting Firm`,
+    title: `${site.firmName} | Modern Remote-First Accounting Firm`,
     description: site.metaDescription,
+    url: site.url,
+    siteName: site.firmName,
     type: "website",
     locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${site.firmName} | Modern Remote-First Accounting Firm`,
+    description: site.metaDescription,
   },
   robots: { index: true, follow: true },
 };
@@ -55,6 +67,7 @@ export default function RootLayout({
       className={`${spaceGrotesk.variable} ${inter.variable} ${jakarta.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-paper text-ink">
+        <StructuredData />
         {children}
       </body>
     </html>

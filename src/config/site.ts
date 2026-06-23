@@ -14,11 +14,13 @@ export const site = {
   // ── Brand ────────────────────────────────────────────────────────────────
   firmName: "NS Accounting",
   firmNameShort: "NS Accounting",
+  // Canonical production URL — update when a custom domain is connected.
+  url: "https://ns-accounting.vercel.app",
   cpaName: "Nick Stafford, Accountant & Software Engineer",
   tagline: "Modern accounting for ambitious businesses.",
   // One-liner used in the browser tab + search results
   metaDescription:
-    "A modern San Francisco accounting firm pairing trusted tax, bookkeeping, and advisory expertise with a tech-driven, paperless client experience. Book a free consultation today.",
+    "A modern, remote-first accounting firm serving small businesses nationwide. We pair trusted tax, bookkeeping, and advisory expertise with automation that keeps your books current. Book a free consultation today.",
 
   // ── Location & contact ──────────────────────────────────────────────────
   city: "San Francisco",
