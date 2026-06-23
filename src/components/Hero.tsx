@@ -38,7 +38,7 @@ export default function Hero() {
           </div>
 
           <h1 className="text-halo mt-6 font-display text-[2.7rem] font-bold leading-[1.18] tracking-tight text-ink sm:text-6xl lg:text-[4.3rem]">
-            Modern accounting for{" "}
+            Modern finance &amp; accounting for{" "}
             <span className="relative whitespace-nowrap text-gold-deep">
               ambitious
               <svg
@@ -56,8 +56,8 @@ export default function Hero() {
 
           {/* Tight one-liner — easier to read over video than a full paragraph */}
           <p className="text-halo-soft mt-6 max-w-md font-alt text-lg font-semibold leading-snug text-ink">
-            Tax, bookkeeping, and advisory. Modern, paperless, and refreshingly
-            stress-free.
+            Accounting, tax, and financial automation. Modern, paperless, and
+            refreshingly stress-free.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">

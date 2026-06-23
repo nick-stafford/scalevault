@@ -17,10 +17,10 @@ export const site = {
   // Canonical production URL — update when a custom domain is connected.
   url: "https://scalevault-smoky.vercel.app",
   cpaName: "Nick Stafford, Accountant & Software Engineer",
-  tagline: "Modern accounting for ambitious businesses.",
+  tagline: "Modern finance & accounting for ambitious businesses.",
   // One-liner used in the browser tab + search results
   metaDescription:
-    "A modern, remote-first accounting firm for growing businesses nationwide. We pair trusted tax, bookkeeping, and advisory expertise with automation and smart workflows that keep your books current and scale with you. Book a free consultation today.",
+    "A modern, remote-first finance and accounting firm for growing businesses nationwide. We pair trusted tax, bookkeeping, and FP&A expertise with automation and smart workflows that keep your finances current and scale with you. Book a free consultation today.",
 
   // ── Location & contact ──────────────────────────────────────────────────
   city: "San Francisco",
@@ -47,7 +47,7 @@ export const site = {
 
   credentials: [
     "Accountant & Software Engineer",
-    "Tax, Bookkeeping & Advisory",
+    "Accounting, Tax & Financial Automation",
     "Secure, paperless workflow",
   ],
 
@@ -79,14 +79,26 @@ export const site = {
     },
     {
       id: "advisory",
-      title: "Advisory & Fractional CFO",
+      title: "FP&A & Fractional CFO",
       blurb:
-        "A financial partner in your corner. Cash-flow forecasting, budgeting, and strategic guidance to help your business grow with confidence.",
+        "A financial partner in your corner. Financial planning & analysis, forecasting, and strategic guidance to help your business grow with confidence.",
       points: [
-        "Cash-flow forecasting",
-        "Budgeting & KPIs",
-        "Entity & growth strategy",
-        "Strategic financial guidance",
+        "Financial planning & analysis (FP&A)",
+        "Forecasting & scenario modeling",
+        "Budgeting, KPIs & cash-flow",
+        "Fractional CFO guidance",
+      ],
+    },
+    {
+      id: "automation",
+      title: "Financial Systems & Automation",
+      blurb:
+        "Your finance stack, connected and automated. We integrate your accounting, banking, payments, and payroll tools so data flows on its own and the routine work runs in the background.",
+      points: [
+        "QuickBooks, Xero & app integrations",
+        "Automated invoicing, AP & AR",
+        "Real-time financial dashboards",
+        "Custom workflows & data pipelines",
       ],
     },
   ],
@@ -95,7 +107,7 @@ export const site = {
   workflow: {
     heading: "A firm that works the way you do",
     subheading:
-      "We pair seasoned accounting expertise with a modern, paperless client experience, so working with your accountant feels effortless, not exhausting.",
+      "We pair seasoned finance and accounting expertise with automation and a modern, paperless experience, so working with your finance team feels effortless, not exhausting.",
     benefits: [
       {
         title: "Secure and paperless",
