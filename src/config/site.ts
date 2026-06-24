@@ -178,10 +178,10 @@ export const site = {
 
   // ── About ────────────────────────────────────────────────────────────────
   about: {
-    heading: "Meet your Accountant",
+    heading: "Meet your finance partner",
     // ⚠️ Replace with the real bio
     body: [
-      "I bring together two worlds that rarely meet: accounting and software engineering. With years of experience across accounting and building software for AI companies, I started Scalevault Financial to give growing businesses the same caliber of finance and automation the big players have, delivered in a way that actually fits how they work.",
+      "I'm an accountant and software engineer. With years of experience across accounting and building software for AI companies, I started Scalevault Financial to give growing businesses the same caliber of finance and automation the big players have, delivered in a way that actually fits how they work.",
       "That means deep tax and accounting expertise paired with modern tools and automation that make the whole experience faster, clearer, and a lot less stressful. No jargon, no surprise bills, just a partner genuinely invested in your success.",
     ],
     credentials: [
