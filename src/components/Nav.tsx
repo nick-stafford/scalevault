@@ -6,6 +6,7 @@ import Logo from "./Logo";
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
+  const [hovered, setHovered] = useState(false);
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -17,8 +18,10 @@ export default function Nav() {
 
   return (
     <header
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        scrolled
+        scrolled || hovered
           ? "border-b border-hair bg-paper/85 backdrop-blur-md"
           : "border-b border-transparent bg-transparent"
       }`}
