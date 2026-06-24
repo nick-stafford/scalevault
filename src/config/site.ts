@@ -35,7 +35,7 @@ export const site = {
   // ── Booking (Calendly) ──────────────────────────────────────────────────
   // Paste the real Calendly link here. Used by every "Book a consultation" CTA.
   // Find it at calendly.com → your event → "Share" → copy the link.
-  calendlyUrl: "https://calendly.com/your-handle/consultation", // ⚠️
+  calendlyUrl: "https://calendly.com/nicholas-alexander-stafford/30min",
 
   // ── Trust / credibility stats (shown in the trust bar) ──────────────────
   stats: [
